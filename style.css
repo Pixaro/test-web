@@ -1,0 +1,376 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    width: 100%;
+    max-width:inherit;
+}
+#bg1{
+    height: 150%;
+    width: 100%;
+}
+
+.upper{
+    position: absolute;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 96px;
+    left: 0;
+    top: 0;
+}
+
+.nav-container{
+display: flex;
+justify-content: space-between;
+position: absolute;
+left: 20px;
+top: 20px;
+}
+
+#navbar_logo{
+/* RARITY ADVENTURE */
+position: absolute;
+width: 291px;
+height: 96px;
+left: 5px;
+top: 50px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 41px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.12em;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.navbar_menu{
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+    position: absolute;
+
+    width: 50%;
+    height: 23px;
+    top: 125px;
+    left: 400px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+}
+
+.nav_item {
+    height: 80px;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: -0.05em;
+    text-align: center;
+  }
+
+.nav_links{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    text-decoration: none;
+    height: 100%;
+}
+
+.nav_btn{
+    /* CONNECT WALLET */
+left: 120%;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+color: #FFFFFF;
+display: inline-flex;
+justify-content: center;
+align-content: center;
+text-decoration: none;
+
+/* Rectangle 176 */
+position: absolute;
+width: 300px;
+height: 49px;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 20px;
+}
+
+.button{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px;
+    outline: none;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+.nav_links:hover{
+    color: darkcyan;
+}
+
+@media screen and (max-width: 960px) {
+    *
+    {
+        width: 100%;
+        height: 100%;
+    }
+}
+.lower{
+position: absolute;
+width: 100%;
+height: 200%;
+top: 115%;
+background: linear-gradient(180deg, #0F2F5C 0.85%, #0F1F39 7.88%, #0B1526 19.44%);
+}
+
+
+.newlogo{
+    /* NEW LOGO */
+position: absolute;
+width: 20%;
+height: 50%;
+left: 60%;
+top: 40%;
+
+}
+
+.intro1{
+    /* RARITY ADVENTURE */
+    position: absolute;
+    width: 909px;
+    height: 106px;
+    top: 389px;
+    box-align: left;
+    
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 106px;
+    /* identical to box height */    
+    text-align: center;
+    letter-spacing: 0.02em;    
+    color: #FFFFFF;
+    
+}
+
+.intro2{
+    /* A FREE-TO-MINT D&D Gaming from Fantom Network */
+position: absolute;
+width: 813px;
+height: 25px;
+left: 136px;
+top: 496px;
+
+font-family: pixelmix;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.intro3{
+    /* Rarity adventure will be your ONE-STOP-SOLUTION */
+position: absolute;
+width: 835px;
+height: 25px;
+left: 136px;
+top: 550px;
+
+font-family: pixelmix;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 25px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.intro4{
+    /* for everything. */
+position: absolute;
+width: 263px;
+height: 25px;
+left: 136px;
+top: 604px;
+
+font-family: pixelmix;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.mint{
+    position: absolute;
+    width: 100%;
+    height: 106px;
+    left: 25%;
+    top: 5%;
+    
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 106px;
+    /* identical to box height */  
+    text-align: center;
+    letter-spacing: 0.02em;    
+    color: #FFFFFF;
+}
+
+.clickmint{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    left: 55%;
+    top: 15%;
+    font-family: pixelmix;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    /* identical to box height */      
+    color: #FFFFFF;
+}
+
+.classes{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    top: 10%;
+    }
+
+#classes{
+    height: 100%;
+    width: 100%;
+    bottom: 30%;
+    left: 60%;
+}
+
+.barbarian{
+/* Barbarian */
+position: absolute;
+width: 275px;
+height: 308px;
+left: 157px;
+top: 1511px;
+
+}
+
+.bard{
+    /* Bard */
+position: absolute;
+width: 275px;
+height: 309px;
+left: 580px;
+top: 1510px;
+
+}
+
+.cleric{
+    /* Cleric */
+    position: absolute;
+    width: 275px;
+    height: 356px;
+    left: 1021px;
+    top: 1463px;
+
+}
+
+.druid{
+position: absolute;
+width: 275px;
+height: 296px;
+left: 1462px;
+top: 1523px;
+}
+
+.fighter{
+position: absolute;
+width: 275px;
+height: 318px;
+left: 164px;
+top: 1908px;
+}
+.monk{
+position: absolute;
+width: 275px;
+height: 318px;
+left: 587px;
+top: 1908px;
+}
+
+.paladin{
+position: absolute;
+width: 275px;
+height: 318px;
+left: 1028px;
+top: 1908px;
+}
+
+.ranger{
+position: absolute;
+width: 275px;
+height: 318px;
+left: 1469px;
+top: 1908px;
+}
+
+.rogue{
+position: absolute;
+width: 275px;
+height: 315px;
+left: 391px;
+top: 2337px;
+}
+
+.sorcerer{
+position: absolute;
+width: 275px;
+height: 315px;
+left: 832px;
+top: 2337px;
+}
+.wizard{
+position: absolute;
+width: 275px;
+height: 315px;
+left: 1273px;
+top: 2337px;
+}
+
+.credit{
+position: absolute;
+width: 100%;
+height: 52px;
+bottom: 0;
+}
